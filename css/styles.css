@@ -275,10 +275,7 @@ body.menu-open
   text-transform: uppercase;
 }
 
-
-/* ========================================
-   SCROLL PROGRESS
-======================================== */
+/**/
 
 .scroll-progress {
   position: fixed;
@@ -288,7 +285,7 @@ body.menu-open
   z-index: 110;
 
   width: 100%;
-  height: 2px;
+  height: 4px;
 
   background:
     rgba(245, 244, 240, 0.12);
@@ -305,10 +302,7 @@ body.menu-open
   transition: width 0.1s linear;
 }
 
-
-/* ========================================
-   HERO
-======================================== */
+/**/
 
 .hero {
   position: relative;
@@ -517,9 +511,7 @@ body.menu-open
   text-transform: uppercase;
 }
 
-/* ========================================
-   PROMISE
-======================================== */
+/**/
 
 .promise {
   position: relative;
@@ -547,9 +539,6 @@ body.menu-open
   color: var(--ink);
 }
 
-
-/* Section header */
-
 .promise__header {
   display: flex;
   align-items: center;
@@ -567,8 +556,6 @@ body.menu-open
 }
 
 
-/* Main composition */
-
 .promise__layout {
   min-height: 0;
 
@@ -580,9 +567,6 @@ body.menu-open
 
   gap: 20px;
 }
-
-
-/* Quote */
 
 .promise__quote {
   border: 0;
@@ -618,8 +602,6 @@ body.menu-open
 }
 
 
-/* Photograph */
-
 .promise__figure {
   min-height: 0;
 
@@ -649,9 +631,6 @@ body.menu-open
   object-position: center 43%;
 }
 
-
-/* Caption */
-
 .promise__caption {
   width: 58%;
 
@@ -673,9 +652,6 @@ body.menu-open
 
   text-transform: uppercase;
 }
-
-
-/* Next section */
 
 .section-next {
   justify-self: center;
@@ -717,9 +693,7 @@ body.menu-open
   animation: discoverArrow 2.2s ease-in-out infinite;
 }
 
-/* ========================================
-   TEMPORARY SECTIONS
-======================================== */
+/**/
 
 .placeholder-section {
   min-height: 100svh;
@@ -753,9 +727,7 @@ body.menu-open
 }
 
 
-/* ========================================
-   ACCESSIBILITY
-======================================== */
+/**/
 
 a:focus-visible,
 button:focus-visible {
@@ -764,9 +736,7 @@ button:focus-visible {
 }
 
 
-/* ========================================
-   DESKTOP
-======================================== */
+/**/
 
 @media (min-width: 900px) {
 
@@ -889,8 +859,6 @@ button:focus-visible {
     font-size: 0.8rem;
   }
 
-  /* PROMISE — DESKTOP */
-
 
   .promise {
     min-height: 100vh;
@@ -929,9 +897,6 @@ button:focus-visible {
     );
   }
 
-
-  /* Quote */
-
   .promise__quote {
     font-size: clamp(
       2.8rem,
@@ -945,9 +910,6 @@ button:focus-visible {
   .promise__quote p {
     margin-bottom: 22px;
   }
-
-
-  /* Photograph */
 
   .promise__figure {
     height: 100%;
@@ -970,9 +932,6 @@ button:focus-visible {
     margin-top: 10px;
   }
 
-
-  /* Next */
-
   .section-next {
     justify-self: center;
 
@@ -981,10 +940,7 @@ button:focus-visible {
 
 }
 
-
-/* ========================================
-   REDUCED MOTION
-======================================== */
+/**/
 
 @media (prefers-reduced-motion: reduce) {
 
@@ -1037,9 +993,7 @@ button:focus-visible {
 }
 
 
-/* ========================================
-   DATE — LA FECHA
-======================================== */
+/**/
 
 .date-section {
   position: relative;
@@ -1067,9 +1021,6 @@ button:focus-visible {
   color: var(--paper);
 }
 
-
-/* ENCABEZADO */
-
 .date-section__header {
   display: flex;
   align-items: center;
@@ -1086,9 +1037,6 @@ button:focus-visible {
   color: rgba(245, 244, 240, 0.5);
 }
 
-
-/* COMPOSICIÓN */
-
 .date-section__layout {
   width: 100%;
   max-width: 1200px;
@@ -1104,9 +1052,6 @@ button:focus-visible {
 
   gap: clamp(24px, 5vh, 40px);
 }
-
-
-/* FECHA */
 
 .date-section__eyebrow {
   margin-bottom: 14px;
@@ -1188,9 +1133,6 @@ button:focus-visible {
   text-transform: uppercase;
 }
 
-
-/* TEXTO EDITORIAL */
-
 .date-section__aside {
   padding-top: 16px;
 
@@ -1235,9 +1177,6 @@ button:focus-visible {
   line-height: 1;
 }
 
-
-/* BOTÓN DE SIGUIENTE SECCIÓN */
-
 .date-section .section-next {
   color: var(--paper);
 }
@@ -1248,9 +1187,7 @@ button:focus-visible {
 }
 
 
-/* ========================================
-   DATE — DESKTOP
-======================================== */
+/**/
 
 @media (min-width: 900px) {
 
@@ -1351,9 +1288,6 @@ button:focus-visible {
 
 }
 
-
-/* PANTALLAS BAJAS EN MÓVIL */
-
 @media (max-width: 899px) and (max-height: 700px) {
 
   .date-section {
@@ -1395,9 +1329,6 @@ button:focus-visible {
 
 }
 
-
-/* INTERACCIÓN DE LA FLECHA EN DESKTOP */
-
 @media (hover: hover) and (pointer: fine) {
 
   .date-section .section-next:hover
@@ -1410,9 +1341,7 @@ button:focus-visible {
 }
 
 
-/* ========================================
-   COUNTDOWN — CUENTA REGRESIVA
-======================================== */
+/**/
 
 .date-section .countdown {
   grid-column: 1 / -1;
@@ -1458,9 +1387,6 @@ button:focus-visible {
   text-transform: uppercase;
 }
 
-
-/* DESKTOP */
-
 @media (min-width: 900px) {
 
   .date-section .countdown {
@@ -1480,9 +1406,6 @@ button:focus-visible {
   }
 
 }
-
-
-/* MÓVILES CON POCA ALTURA */
 
 @media (max-width: 899px) and (max-height: 700px) {
 
@@ -1505,9 +1428,7 @@ button:focus-visible {
 }
 
 
-/* ========================================
-   CEREMONY — CEREMONIA RELIGIOSA
-======================================== */
+/**/
 
 .ceremony-section {
   position: relative;
@@ -1536,8 +1457,6 @@ button:focus-visible {
 }
 
 
-/* ENCABEZADO */
-
 .ceremony-section__header {
   display: flex;
   align-items: center;
@@ -1552,9 +1471,6 @@ button:focus-visible {
 .ceremony-section__separator {
   color: var(--stone);
 }
-
-
-/* COMPOSICIÓN PRINCIPAL */
 
 .ceremony-section__layout {
   width: 100%;
@@ -1572,9 +1488,6 @@ button:focus-visible {
 
   gap: clamp(22px, 4vh, 36px);
 }
-
-
-/* TÍTULO */
 
 .ceremony-section__eyebrow {
   margin-bottom: 18px;
@@ -1610,9 +1523,6 @@ button:focus-visible {
 
   font-weight: 400;
 }
-
-
-/* FECHA Y HORA */
 
 .ceremony-section__schedule {
   margin-top: clamp(24px, 4vh, 38px);
@@ -1677,9 +1587,6 @@ button:focus-visible {
   letter-spacing: 0.1em;
 }
 
-
-/* UBICACIÓN */
-
 .ceremony-section__venue {
   padding-top: 14px;
 
@@ -1741,9 +1648,6 @@ button:focus-visible {
   line-height: 1.6;
 }
 
-
-/* FLECHA DE NAVEGACIÓN */
-
 .ceremony-section .section-next {
   color: var(--ink);
 }
@@ -1753,10 +1657,7 @@ button:focus-visible {
     rgba(28, 26, 23, 0.35);
 }
 
-
-/* ========================================
-   CEREMONY — DESKTOP
-======================================== */
+/**/
 
 @media (min-width: 900px) {
 
@@ -1850,9 +1751,6 @@ button:focus-visible {
 
 }
 
-
-/* MÓVILES CON POCA ALTURA */
-
 @media (max-width: 899px) and (max-height: 700px) {
 
   .ceremony-section {
@@ -1898,9 +1796,6 @@ button:focus-visible {
 
 }
 
-
-/* HOVER DE LA FLECHA EN DESKTOP */
-
 @media (hover: hover) and (pointer: fine) {
 
   .ceremony-section .section-next:hover
@@ -1911,9 +1806,6 @@ button:focus-visible {
   }
 
 }
-
-
-/* DIRECCIÓN Y MAPA — CEREMONIA */
 
 .ceremony-section__venue-name {
   margin-top: 2px;
@@ -1960,8 +1852,6 @@ button:focus-visible {
   }
 }
 
-/* MÓVILES CON POCA ALTURA */
-
 @media (max-width: 899px) and (max-height: 700px) {
   .ceremony-section__address {
     margin-top: 8px;
@@ -1985,9 +1875,7 @@ button:focus-visible {
 }
 
 
-/* ========================================
-   CELEBRATION — CELEBRACIÓN
-======================================== */
+/**/
 
 .celebration-section {
   position: relative;
@@ -2009,8 +1897,6 @@ button:focus-visible {
   color: var(--paper);
 }
 
-/* ENCABEZADO */
-
 .celebration-section__header {
   display: flex;
   align-items: center;
@@ -2025,8 +1911,6 @@ button:focus-visible {
   color: rgba(245, 242, 234, 0.5);
 }
 
-/* COMPOSICIÓN */
-
 .celebration-section__layout {
   width: 100%;
   max-width: 1200px;
@@ -2038,8 +1922,6 @@ button:focus-visible {
   align-content: center;
   gap: clamp(22px, 4vh, 36px);
 }
-
-/* TÍTULO */
 
 .celebration-section__eyebrow {
   margin-bottom: 18px;
@@ -2074,8 +1956,6 @@ button:focus-visible {
   font-size: 0.72rem;
   line-height: 1.7;
 }
-
-/* FECHA Y HORA */
 
 .celebration-section__schedule {
   margin-top: clamp(24px, 4vh, 38px);
@@ -2126,8 +2006,6 @@ button:focus-visible {
   font-size: 0.55rem;
   letter-spacing: 0.1em;
 }
-
-/* LUGAR */
 
 .celebration-section__venue {
   padding-top: 14px;
@@ -2203,8 +2081,6 @@ button:focus-visible {
   transition: transform 0.25s ease;
 }
 
-/* NAVEGACIÓN */
-
 .celebration-section .section-next {
   color: var(--paper);
 }
@@ -2212,8 +2088,6 @@ button:focus-visible {
 .celebration-section .section-next__arrow {
   border-color: rgba(245, 242, 234, 0.5);
 }
-
-/* DESKTOP */
 
 @media (min-width: 900px) {
   .celebration-section {
@@ -2295,7 +2169,6 @@ button:focus-visible {
   }
 }
 
-/* MÓVILES CON POCA ALTURA */
 
 @media (max-width: 899px) and (max-height: 700px) {
   .celebration-section {
@@ -2350,8 +2223,6 @@ button:focus-visible {
   }
 }
 
-/* HOVER */
-
 @media (hover: hover) and (pointer: fine) {
   .celebration-section__map-link:hover span {
     transform: translate(2px, -2px);
@@ -2365,9 +2236,7 @@ button:focus-visible {
   }
 }
 
-/* ========================================
-   ARCHIVE — GALERÍA EDITORIAL AMPLIADA
-======================================== */
+/**/
 
 .archive-section {
   position: relative;
@@ -2463,8 +2332,6 @@ button:focus-visible {
   line-height: 1.7;
 }
 
-/* FOTOGRAFÍA */
-
 .archive-gallery {
   width: 100%;
   height: 100%;
@@ -2501,9 +2368,6 @@ button:focus-visible {
   object-fit: contain;
   object-position: center;
 }
-
-
-/* CONTROLES */
 
 .archive-gallery__controls {
   display: flex;
@@ -2554,8 +2418,6 @@ button:focus-visible {
     color: var(--paper);
   }
 }
-
-/* MÓVIL */
 
 @media (max-width: 899px) {
 
@@ -2626,8 +2488,6 @@ button:focus-visible {
 
 }
 
-/* MÓVILES CON POCA ALTURA */
-
 @media (max-width: 899px) and (max-height: 700px) {
   .archive-section {
     padding-top: calc(var(--header-height) + 4px);
@@ -2671,9 +2531,7 @@ button:focus-visible {
 }
 
 
-/* ========================================
-   DRESS CODE — CÓDIGO DE VESTIMENTA
-======================================== */
+/**/
 
 .dress-code-section {
   position: relative;
@@ -2784,8 +2642,6 @@ button:focus-visible {
   color: var(--forest);
 }
 
-/* MÓVIL */
-
 @media (max-width: 899px) {
   .dress-code-section {
     padding:
@@ -2830,8 +2686,6 @@ button:focus-visible {
     font-size: 0.98rem;
   }
 }
-
-/* MÓVILES CON POCA ALTURA */
 
 @media (max-width: 899px) and (max-height: 700px) {
   .dress-code-section {
@@ -3260,4 +3114,278 @@ button:focus-visible {
   margin-top: 2px !important;
   font-size: 0.48rem;
   opacity: 0.75;
+}
+
+/* ========================================
+   GIFT REGISTRY — MESA DE REGALOS
+======================================== */
+
+.gift-registry-section {
+  position: relative;
+
+  min-height: 100svh;
+  height: 100dvh;
+
+  padding:
+    calc(var(--header-height) + 24px)
+    24px
+    18px;
+
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 18px;
+
+  overflow: hidden;
+
+  background: var(--forest);
+  color: var(--paper);
+}
+
+/* ENCABEZADO: 07 / MESA DE REGALOS */
+
+.gift-registry-section__eyebrow {
+  position: absolute;
+  top: calc(var(--header-height) + 24px);
+  left: 24px;
+  right: 24px;
+
+  margin: 0;
+
+  color: rgba(245, 242, 234, 0.65);
+  font-size: 0.56rem;
+  letter-spacing: 0.22em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+/* COMPOSICIÓN PRINCIPAL */
+
+.gift-registry-section__content {
+  width: 100%;
+  max-width: 850px;
+  min-height: 0;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* TÍTULO */
+
+.gift-registry-section__title {
+  max-width: 780px;
+  margin: 0;
+
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 12vw, 4.5rem);
+  font-weight: 400;
+  line-height: 0.9;
+  letter-spacing: -0.035em;
+}
+
+/* TEXTO INTRODUCTORIO */
+
+.gift-registry-section__text {
+  max-width: 36ch;
+  margin: 24px 0 0;
+
+  color: rgba(245, 242, 234, 0.75);
+  font-size: 0.72rem;
+  line-height: 1.7;
+}
+
+/* LIVERPOOL */
+
+.gift-registry-section__store {
+  width: 100%;
+  margin: 30px 0 0;
+  padding-top: 18px;
+
+  border-top: 1px solid rgba(245, 242, 234, 0.3);
+
+  color: #d1c9ae;
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+/* ENLACE A LA MESA DE REGALOS */
+
+.gift-registry-section__button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-top: 16px;
+  padding-bottom: 6px;
+
+  border: 0;
+  border-bottom: 1px solid rgba(245, 242, 234, 0.65);
+
+  background: transparent;
+  color: var(--paper);
+
+  font-size: 0.58rem;
+  letter-spacing: 0.07em;
+  line-height: 1.6;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.gift-registry-section__button span {
+  font-size: 0.9rem;
+  transition: transform 0.25s ease;
+}
+
+/* NÚMERO DE EVENTO */
+
+.gift-registry-section__number {
+  margin: 14px 0 0;
+
+  color: rgba(245, 242, 234, 0.6);
+  font-size: 0.46rem;
+  letter-spacing: 0.16em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+/* NAVEGACIÓN */
+
+.gift-registry-section .section-next {
+  color: var(--paper);
+}
+
+.gift-registry-section .section-next__arrow {
+  border-color: rgba(245, 242, 234, 0.5);
+}
+
+/* DESKTOP */
+
+@media (min-width: 900px) {
+  .gift-registry-section {
+    padding:
+      calc(var(--header-height) + 30px)
+      6vw
+      20px;
+
+    gap: 22px;
+  }
+
+  .gift-registry-section__eyebrow {
+    top: calc(var(--header-height) + 30px);
+    left: 6vw;
+    right: 6vw;
+
+    font-size: 0.56rem;
+  }
+
+  .gift-registry-section__content {
+    max-width: 1100px;
+  }
+
+  .gift-registry-section__title {
+    max-width: 900px;
+    font-size: clamp(5rem, 7.5vw, 8.5rem);
+    line-height: 0.88;
+  }
+
+  .gift-registry-section__text {
+    max-width: 36ch;
+    margin-top: 28px;
+    font-size: 0.82rem;
+  }
+
+  .gift-registry-section__store {
+    max-width: 520px;
+    margin-top: 36px;
+    padding-top: 22px;
+    font-size: 2rem;
+  }
+
+  .gift-registry-section__button {
+    font-size: 0.62rem;
+  }
+}
+
+/* MÓVILES CON POCA ALTURA */
+
+@media (max-width: 899px) and (max-height: 700px) {
+  .gift-registry-section {
+    padding-top: calc(var(--header-height) + 12px);
+    padding-bottom: 12px;
+    gap: 12px;
+  }
+
+  .gift-registry-section__eyebrow {
+    top: calc(var(--header-height) + 12px);
+    font-size: 0.5rem;
+  }
+
+  .gift-registry-section__title {
+    font-size: clamp(2.6rem, 10vw, 3.5rem);
+    line-height: 0.9;
+  }
+
+  .gift-registry-section__text {
+    margin-top: 16px;
+    font-size: 0.65rem;
+    line-height: 1.6;
+  }
+
+  .gift-registry-section__store {
+    margin-top: 20px;
+    padding-top: 12px;
+    font-size: 1.4rem;
+  }
+
+  .gift-registry-section__button {
+    margin-top: 10px;
+    font-size: 0.52rem;
+  }
+
+  .gift-registry-section__number {
+    margin-top: 8px;
+    font-size: 0.42rem;
+  }
+}
+
+/* MÓVILES */
+
+@media (max-width: 600px) {
+  .gift-registry-section {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .gift-registry-section__content {
+    width: 100%;
+  }
+
+  .gift-registry-section__title {
+    font-size: clamp(2.6rem, 10vw, 3.5rem);
+  }
+}
+
+/* HOVER Y ACCESIBILIDAD */
+
+@media (hover: hover) and (pointer: fine) {
+  .gift-registry-section__button:hover span {
+    transform: translate(2px, -2px);
+  }
+
+  .gift-registry-section .section-next:hover
+  .section-next__arrow {
+    background: var(--paper);
+    color: var(--forest);
+    border-color: var(--paper);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gift-registry-section__button span {
+    transition: none;
+  }
 }

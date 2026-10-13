@@ -1,7 +1,14 @@
+# Archivos temporales del sistema
 .DS_Store
+*.swp
+*.swo
 Thumbs.db
 .vscode/
 node_modules/
 
 # Original high-resolution photos
 assets/images/originals/
+assets/images/thumbs/
+
+# Caché local de Firebase
+.firebase/
